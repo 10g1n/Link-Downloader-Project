@@ -1,0 +1,44 @@
+package md.webscraper;
+
+import java.util.List;
+
+public class ListOfLinks {
+    static List<String> listOfLinks = List.of(
+            "https://us06web.zoom.us/rec/webhook_download/BnY-9S0PVvId5Jb0YlAlrem5gQdTS3Uo4i9KbB-HYVDpPRe77-wr-cYaVUYpxXBmkYeKLY8VDAd9mHCu.BNlk-Lr1GSIBFJAo/dyFZPa1ZzBk1F3Fh3JF8RpoSfbWhFh8jztX-aXeCetpqebkphiV-AMas3FrwMuNHkA.APn3NJh5Uktb3CDb",
+            "https://us06web.zoom.us/rec/webhook_download/5Npawqqmd8uQQUCCBDTSipqb_SGJPuTwYTtYYrekomwOy_j8-gKLbDEVj5DXtlwXw4dOnboWtaYobVh3.QOybf9S6ve59WeTh/D5pX3WYEGKAYhgr8N2HH3DclFscbb1f4rgdrLkK_oHyQttWpHOf4yYgRcEbBTlpNgw.TjTj-ZxIIM74lL01",
+            "https://us06web.zoom.us/rec/webhook_download/WENH707pr_1kQFbvwvErQmdMyYnwVncO8luWr3DcO-gmjVYQeefY91XpczaOywLrLyPCUgFV8vScpzoA.v_i1T2ujbdbpz0am/WRkicnOS_wIj38erEU8uzd_F1OxMZljqIwwvuLhwHv2zsr6okZ2mXFThgmYhdTMyYA.jrMgbae3qQy88-iP",
+            "https://us06web.zoom.us/rec/webhook_download/-o-xKc8eazD_vJzy-PJTsVeGYsl8R_MWwt6_na0FrLdTNB4Fh77YLUqCTyGNg4Yx_TS_70OabGy_xoyb.ajpmbiVA8GSIoupC/33dpsC5caWP-Ms0kAdieT1TMBwo-1etG1o8O02l8gZzemGPjLm7I6hj_wblqRpzrMQ.45s2IeqKPOhArQKq",
+            "https://us06web.zoom.us/rec/webhook_download/222hxX2mQ4yjM479URrc7a1NI3QVDDoTVIpkOWDyYuzcLSeHWGbyMlf-7pi7XcoPcyAUq1ywp5l2Wb2J.0_3WwMI5tdGXsCxb/zArvu5W9z6JHJo1gkM79Lm3OVG76yEy6AEI53ub1-PqvOVUCWNtvTI1XtOtcx3sabA.ZyAN-ciWc5GGPC0R",
+            "https://us06web.zoom.us/rec/webhook_download/kTYjPSkvXETeubh8LA7WQLhphNh0mC_jZwsS9e8OjiNPdidqx7kxp8lMkFrhkTw-6-el1mjbxPpGHsst.3K21SwfDilUF1ogw/5JaqK3rVXGKGOJ-jDsBqpfVzBb4bIp52c3TCjdpmv72rxboTo-MkloV3ynShNHKbHQ.tsQPWO2-jc3fIgqh",
+            "https://us06web.zoom.us/rec/webhook_download/pQmC7HEGto6v_C0whoNgisaN_x5LNOnqDmZ2W2bE6oKWdO8vu3VlUteo6Ov57HT0bqanibcCLUwtaW2z.-I8dln_970x2vEUb/oF3d3W4yM1kfdQfUZJU7N8uvMYg8eA7ATW5osjMPt4kBGYSRQc7XkVbRjEejZUjbQg.oDb9fBa6Ywxxzhd6",
+            "https://us06web.zoom.us/rec/webhook_download/jAfU9s2J-ZWvVTDEf0kfI3IWxpfZuQMenSPlxS0PklbOSo14vhCpismyZxOf0daMQjTc0-NLwNA8V3Ml.8p_K3WpfbuOZQ5Vm/u5B3sKCRVn7wPV1ageyOcGw5yEbHDqoEoPjZOtprKkFtVVJiJe-nFrPrSbw-DgAH6w.c4tEcbYIgcwPDqLj",
+            "https://us06web.zoom.us/rec/webhook_download/7gVslH8SCPtM2r1sfQijMegcHRNr21y-07LdTywPtS9bn6dakCPzMNP-fpt9S_N_fiCB9-6pmmdbrWYU.HuqMLis0bpdwb5Uu/rwSHbnuEkbojJMjqlWf80ezAavfOQg5OCrdH9UMl8Jj-Ftb9xUApsfB9iKgUN89aWQ.jtltiGBTWzkD7LTf",
+            "https://us06web.zoom.us/rec/webhook_download/kyDJ_EBW9Ye4MII17KCEm1w6OisNg1rt6wmvK2ktltniQONnZfhg5GlAmuLCl0sA1gL1o4Zww9cvAroK.KNdx3nCpm_OZRGWB/uU5Sspu5VurF8dKX5lwq5FfyULFKZM8VeFoyPlX2ilHfCNiB8vDy9chCOcqbPr1BZw.FW6bWiLUg4b7xn9Y",
+            "https://us06web.zoom.us/rec/webhook_download/DbmWh7PRZUGrbWP9OM0tDDJb37iUMPi1ljz-VZ65qbhF-c5_TX1aL8VzCPOHJ-BC2EZ4AcPYKL2vhMA4.R94iRbFRrI-9WeAM/qp8HBX8WcJWGzdZwolQPQrJPn-UhZcEwLJHoxkfr24qKkOTZ-Gxb-yF5MrQt8uQOmQ.8_viAMSNrivG3GZb",
+            "https://us06web.zoom.us/rec/webhook_download/w9eUIbwgYHgmpcl9I0MvlOdxGwC3uqfk25EETZBi_1pUwW4vIygSvbioFPUq6dgqOhmCTPKfnt9ydK0.mJU9h5o7L_g9SY5f/yTaLxtghPRVKZGMz6hYl02ITbRJcUoUYEqtOtBcU6oXM3eFLF1DwOKT1rPxgrLZOkw.aecyhkTQ4OvKuwLs",
+            "https://us06web.zoom.us/rec/webhook_download/jBgeiIgaSe-dYYgv2WR34IOk7XWRCp3hbM36GPJswdAsXVHaOGz_XN51DHxgZ3ZZ-ChEdLJgf1ll6Pk-.78bW38bmzq6U1unb/rL-b8SErWPZYKosPhTAvR0yXHWKzuxYGddMRUCHQk96uyz3F0_txexKDEoK45iNaYA.vgyoCP-ITOz4rZ8z",
+            "https://us06web.zoom.us/rec/webhook_download/kZfxBc1Z87Kg1YrzqGQEg9JpDeHc33qPqlb-yeyp5Uz2VyAteE3Glb_NIdgdlJ64g8mRa_TBmBRbcJWI.Jeqec-UmKkOjAe6r/2UzJ7pHWGSjvLRPL0uOWWZJWJbfBwrwDrrCNV_Jtfc1JkBLjIh8ciBFRb-723yfKjA.QuXkfpJqsXRHJjnB",
+            "https://us06web.zoom.us/rec/webhook_download/utJ1kHU7FlNelRgZ1rBqam0vtoXfcX4KtecgG5Nfr_ozTGqJGeIi9JE3mxzQZetG2afk2t_o4AS_TU91.xnQ14cMUbK6Lv2ZW/-iHtC-jmMmWPJhtkf7P9DhzYjXtU5EbU0OsFdce8xVSDmGQwgS5fv9FY7Jjme-Zlxw.LsHAwGWC8pmtbUZ8",
+            "https://us06web.zoom.us/rec/webhook_download/XW4st5QQSy39TM7yQfH2rWArXbMbfa_3PvFANLr4mBABBFxjcHfzVkWAeyQhw_sSpnucXPr51_D6A5KK.WrUvJVLW1yypIwEp/20U3wWhGIpA4KnNg8IOUWSlYOFpSXgGMGY7kcsi0VUQR-uRv72UukHUsVQ_gljScDg.tyvzHEEpANwof4sQ",
+            "https://us06web.zoom.us/rec/webhook_download/scinFrQirrZq-08iR41zSD-Jo3i2fJYJ9SKwTDVYo_7vd9FuzkjiSMzeqO-vDEeAHUlaPzk5F11sqkc5.nVfnc2S9UGVG8FpN/FAjyMhbl6xk98JqVU_gCr2jyIq3-Dqqv1_GSVxnycgIPqyd7198SBe7FcuyJOtH5Yg.ODVUehdaGyPyAjJv",
+            "https://us06web.zoom.us/rec/webhook_download/KMIEwabDF4tFWynOrxwk1sMTYJKcnN5KHVNe3hj75YQJQw0fhs3O-2nAlAuKV--9m71cplfpGJkpUeHL.PSIir6f1NBZRmmio/ufIv5IANa-HPyJlX8w9JR42ZeM_ikJJjgYpfvB5O0gIk_ch7GIqiSYQd262hHCeCnA.hBgfOyzctdfKgbL8",
+            "https://us06web.zoom.us/rec/webhook_download/hOHpMEwq2Y8hS5VbTLfRDRjYp5UWA5YYAQ9p0COk7rG0Eux3tmPF7rP6VOgRcez6CAb7eZYqJdb3MAO_.3ezKj_-S-WX4fQwD/vzklbpkGlt1lkb8pFFlzInP-4WuzgUIHNje9LZp_u6R8STrZu7cxxgRyebQAKpibfQ.MUM6lZHwmTZ06vIy",
+            "https://us06web.zoom.us/rec/webhook_download/JBanZR8e_OC5RtF9TcA-laPvCm4vf-zT9RoL1J55Ed57VXJvmFkzbH1OcXd9FleX7elOHk1mqDjTSAgf.1N4Inyg931WxqjYr/tO6Kt57stUpz6sr-NJdQTOlam2KTHNwSTf8IZnTCqikMdTFu_Uon6iZzuHIWmUOQdg.255NoIZjpEtnUj1s",
+            "https://us06web.zoom.us/rec/webhook_download/4OCe_c27RCTRp8nnM8Sk89V7B0mLURO0XGH8FIM0_K_fDv1i2aoCUGOm7ETrKdeiBS6C-CYKluVoicBk.ifOfy3uy08uN7IEI/cQy4FNNKLxWxPZ_yuUbAVQfN8CFcPdnAgyzf20GbMmEAFD4YZVHR0CihA0zqNiFNkw.Kl5kV9ljXMtwtd9_",
+            "https://us06web.zoom.us/rec/webhook_download/WHjiFMf9MOxo9b-gpf_D_xS8r13_bfrtsb3GVQ59yNlyyuYRE6o13eteikbDa14tcQDNAinNm4Dyfd-K.39L4Xhn22ivf68qF/lmVWkJ6gtPceb5FQ9CDvXgW28xM4Pu3oaJ8PsnkLiGXrHX6q6hwkwtUTmESqlFndMg.8nb-rHE20TdaN9Y2",
+            "https://us06web.zoom.us/rec/webhook_download/VVIGR52_MIcIItkdntAlpzgmT1E6tPBfZ0VK1_kdrbuNKNdLxvaREEc5NmyrOR8TKMr1-meGDQ7x6fFb.tJS3FVoMClba7noJ/fb5eQ-GGB14ChPJN1ivF5h7Fm_M6NFuf7BhTUSCcsROuAnstlWfeCbWKIZG8E8EVKQ.S7ZDFxNEtGruaiGd",
+            "https://us06web.zoom.us/rec/webhook_download/7bQHBGOWp24MyuGPqAQolVnctpP_CITZuTdys48_-LER_VaazVONI3MCG0jFjy2ZXbHPykF0KUq21WQ.FJdbVnBgRJzflfDD/loRgIo7i2E0jphUGOyXJvVCZch-gWBbJIsHM-qmo8vu6cLjdPopsEIyajAUxT9h4aw.ZKLgdIQJXJ6D3p3q",
+            "https://us06web.zoom.us/rec/webhook_download/eWyRNWegiuOYaxo7WpZ8PwlsYzxsYV37T-MkeROmUL9nNO86rlndgYDaULsTdnJh7loUwTifO3eZOxoy.9C9X8kSVKfbSzE0D/AHf-8PzU4z3k981JrER476DHEqRmPlOqhvdtIWtnBw-DSDcqtCVJn36KqE4l_AQHVQ.sg6EHcAfiBjKC4rg",
+            "https://us06web.zoom.us/rec/webhook_download/amkhlDSQAut7xyCng4QzqFdXvvcSIVY02FVvX6ynUhV2CvUjK4kDYPURPp7SgW2ObynXe5XSud_uvQSj.Ke0D-TeBfBn7RAqG/2X3CKm0ezbxVqJPJFF4rSGEfL2PJRLcPtej8cASxu3q91ku7bR4QgIiROiD-xLCIUA.9hwYDmLko8_bs01D",
+            "https://us06web.zoom.us/rec/webhook_download/MONizlFQunb0CWO7M1NL43I9xxI4Y6aLdV2hFD__VQ_QfvupWKJAvSQIyV9zIw6zGz0zhHrfeKjbA1Yz.yE1Vd-ZxJYVv8x98/VaQqZlKP6Kv2O8iVHFunnXlnjOgu1dr2LVN0NuBxh9AfttHsjib6YZeNBHgd7h9bjw.rMVVMJjAKgnp2O5P",
+            "https://us06web.zoom.us/rec/webhook_download/uj4TpNYRsq_YfBixdFSjG8S6ax6hGR9ZGcx4_MPTWv8dLtAIPn3Za3PKb-jpfZMBItLIkK0Ub5PybflG.zP_FhPiA1qgEv12G/I0RlzkLNLrZHzqwg5Eh2kUHs4pCRtCkCynTFDR_QEn0DLHiJNccJ7SR8cIAlSc2GtA.VZQ2aPasoPC-sfP-",
+            "https://us06web.zoom.us/rec/webhook_download/gCba27MgGYN_gGGKUvaA0Zyw9jPbNbIBt6cx92x39EORGyFIgfhtH8M14kFOXpXoe0gWVIHKESwfcL2z.3Vv0BmmwUJ9DgdkO/F0lNDgmKsHGppHLlEkwT2Ndc2HSSrDWIlwb0XOnGOlD2-yDlDo2oYns858n5hz5lFw.3EYQtog4jdLQ3bkS",
+            "https://us06web.zoom.us/rec/webhook_download/JuLjFI-8PvTbVUfcHGrgp7a19rOq4AN_gKFQM7VDJSnFnsxi_fK9IXq0Kgs2PkKzFYL74DQQN3h3FFUJ.2U-TWb2Gf1QzBwyE/f0RZNBVGqjz5vXUyAvAtX_V7Yvr9ytDwMv71Tw9AMUibfAEN3VtWEiZjMfZ52CPslQ.L8bazktyRFwA8zTS",
+            "https://us06web.zoom.us/rec/webhook_download/UAu60KPxnyH8nOqX5gA4aqlYSdRpu-UfgN7WfCO5Sni2Jn1JI_uHKSH2j_yo7Ux9-oQyqVTaFYH5Y2ZI.EL-KnnmRRjWJNKqA/Q43LCWUU7hfDlZN3T4J-3T6pcEDvDEUAOAcrlwNGydzdJEUVpBC7pXdQniCDachAvQ.wiquF_fFamwIDL1q",
+            "https://us06web.zoom.us/rec/webhook_download/ywS9yFiF1jb6dW9yL3gSeszjexpMgwG65xriBzLpuv4i8xxH40yAiQ5JUxVPK6WIYH_jtuH-hOhVX7-l.gFoOwvg0C8Ly8hC_/5x318Jq_Hky9M-xE1Ncq9JkzWRgQ1zB3KvhWGDzBpfiCuy-Yd6zMMzsTulpikqaEdg.-OCMwidMJ5ZKqyBm",
+            "https://us06web.zoom.us/rec/webhook_download/cM5cQ75Fkyz07A0OnUIeBchqlwKrk_LPu0Zh_1utXgiFcuWOEfiLpUKSJg5mj7So-iQGCMFmZJckHoyI.6SdWmrRGV5jyaWyC/s2rzknSlxj6BzVCzpRXjPymqi31tCD2C8LSbK054m54HhjfwB_BnGw5dbpz5LDdsWQ.W10O4QwQl7P_Vr3J",
+            "https://us06web.zoom.us/rec/webhook_download/_ckQitOaMG3wW6Ef4lKD84fOq7XVDyVd-pabcQNskSThom7xVX0j57E51TlkjU6e_JIRG_cO2_qR4LI5.tnnPjwWWFFawcCf3/7qSxK3lTBUU6TJRFDzdU6hsvpxqpedU-LHJgocyh2I2FMRZkCSARh6UnqSh0Qi-RZw.gPwwqnp8fjd6vQYW",
+            "https://us06web.zoom.us/rec/webhook_download/9X9nt1YPFdlB4s0z1n8Q_Sg2OGKXkRUx1xRllnmoFTwsbMTZfpmUQ6V8B7Pf2HIcDWYLkNFLY-YjFKyx.ycr9uMe06DpTERLF/FJ5bY6onZuNDy6R5hbovvhyPH8tLYqo4VXeEVzxUodU-J33kNpGWSMaWa1_GnJ_tJw.H95Ms3ynzTX3tRzH",
+            "https://us06web.zoom.us/rec/webhook_download/yIGU-q0f_EC_3wCn5TOXPJap8UnhGm-L6n7smi_4szYOanYAs3_KM9tgpt7oPL7jLJu_F3Uzz7vfrjkq.yW2Sk4yuN-gwChgk/whHe9Wl5rpUnvipLHpXxTSTTWG3_spN3qzeerLmAYCInGhU4CHFKo_PkNJ1F4TaEVQ.D8yjd8xVVo5AOetu"
+    );
+}
